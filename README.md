@@ -3,7 +3,7 @@
 ### Steps to Run the application
 
 1. Install Java version 1.8 or above.
-2. Download the project folder
+2. Download the project folder *cronparser*
 3. Go to the target folder containing the jar file "cronparser-0.0.1-SNAPSHOT.jar"
 4. On the command line run the following command with an input cron expression as command line argument :-
 
