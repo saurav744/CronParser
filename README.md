@@ -7,7 +7,7 @@
 3. Go to the *target* folder containing the jar file "cronparser-0.0.1-SNAPSHOT.jar"
 4. On the command line run the following command with an input cron expression as command line argument :-
 
-              java -jar cronparser-0.0.1-SNAPSHOT.jar " 1 1 15 JAN-DEC MON-FRI /usr/bin/find "
+              java -jar cronparser-0.0.1-SNAPSHOT.jar "1 1 15 JAN-DEC MON-FRI /usr/bin/find"
 	
 ### Use cases handled
 
