@@ -15,13 +15,14 @@ Standard cron format with five time fields - *minute*, *hour*, *day of month*, *
 
 Special characters handled-    *comma(,) dash(-) asterisk(*) slash(/)* and *question mark (?)*
 
-  Field         Range       Special characters
------------------------------------------------  
- minute         0-59         , * - / 
- hour           0-23         , * - / 
- day            1-31         , * - / ? 
- month          1-12         , * - / 
- weekday        0-7          , * - / ? 
+| Field   |  Range  | Special characters  |
+|---------|---------|---------------------|
+| minute  |  0-59   |      , * - /        |
+|   hour  |  0-23   |      , * - /        |
+|   day   |  1-31   |      , * - / ?      |
+|  month  |  1-12   |      , * - /        |
+| weekday |  0-7    |      , * - / ?      |
+
 
 Characters not handled :      *L, W, #* and other special strings
 
