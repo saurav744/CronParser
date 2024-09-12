@@ -4,6 +4,7 @@ public class Main {
 	
 	public static void main(String[] args) {
 		String expression = args[0];
+	//	String expression = "1  1  15  JAN-DEC  MON-FRI  /usr/bin/find";
 		try {
 			ParsedCronExpression result = CronParser.parse(expression);
 			printParsedCronExpression(result);

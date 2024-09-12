@@ -45,6 +45,7 @@ public class CronParser {
 		if(expression == null) {
 			throw new IllegalArgumentException("null input");
 		}
+		expression = expression.trim();
 		String[] fields = expression.split("\\s+");
 		if(fields.length > CronField.values().length) {
 			throw new IllegalCronFormatException("Invalid cron format! Too many fields !");	
